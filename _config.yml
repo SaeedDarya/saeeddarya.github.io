@@ -1,0 +1,47 @@
+# Site settings
+title: My GitHub Pages
+description: A simple Jekyll site with "Copy Code" functionality
+author: Saeed Darya
+baseurl: "" # Leave empty for root URL or specify subfolder
+url: "https://saeeddarya.github.io" # Replace with your GitHub Pages URL
+
+# Markdown and syntax highlighting
+markdown: kramdown
+highlighter: rouge # Rouge is the default highlighter
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+  syntax_highlighter_opts:
+    block_code:
+      line_numbers: false # Set to true if you want line numbers
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Theme settings
+theme: minima # Replace with your chosen theme
+paginate: 10 # Number of posts per page
+
+# Exclude specific files or folders from the site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Include additional files in the build
+include:
+  - _pages # Custom folder for pages if used
+
+# Defaults for collections
+defaults:
+  - scope:
+      path: "" # All files
+    values:
+      layout: default # Default layout for all files
+  - scope:
+      path: "*.md" # Markdown files only
+    values:
+      highlighter: rouge
