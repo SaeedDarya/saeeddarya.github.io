@@ -32,8 +32,8 @@ exclude:
   - vendor
 
 # Include additional files in the build
-include:
-  - _pages # Custom folder for pages if used
+# include:
+#   - _pages # Custom folder for pages if used
 
 # Defaults for collections
 defaults:
