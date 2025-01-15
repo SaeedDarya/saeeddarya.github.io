@@ -7,9 +7,12 @@ def hello_world():
 
 ## js sample
 
-```js
+Sample js code  
+
+```javascript
 function helloWorld() {
     console.log("Hello, world!");
 }
 ```
-Done.
+
+Done
