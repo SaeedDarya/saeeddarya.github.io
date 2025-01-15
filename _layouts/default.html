@@ -12,8 +12,11 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css"
+      href="{{ '/assets/css/prism.css' | relative_url }}"
     />
+    <!-- Include JavaScript -->
+    <!-- <script src="{{ '/assets/js/copy-code.js' | relative_url }}"></script> -->
+    <script src="{{ '/assets/js/prism.js' | relative_url }}"></script>
   </head>
   <body>
     <header>
@@ -26,12 +29,5 @@
     <footer>
       <p>© {{ site.time | date: "%Y" }} {{ site.author }}</p>
     </footer>
-
-    <!-- Include JavaScript -->
-    <script src="{{ '/assets/js/copy-code.js' | relative_url }}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-    <script>
-      hljs.highlightAll();
-    </script>
   </body>
 </html>
