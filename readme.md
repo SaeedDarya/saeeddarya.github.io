@@ -5,7 +5,11 @@ def hello_world():
     print("Hello, world!")
 ```
 
-```javascript
+## js sample
+
+```js
 function helloWorld() {
     console.log("Hello, world!");
 }
+```
+Done.
