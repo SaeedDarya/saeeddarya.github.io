@@ -1,6 +1,6 @@
 # Site settings
 title: My GitHub Pages
-description: A simple Jekyll site with "Copy Code" functionality
+description: A Jekyll site with "Copy Code" functionality
 author: Saeed Darya
 baseurl: "" # Leave empty for root URL or specify subfolder
 url: "https://saeeddarya.github.io" # Replace with your GitHub Pages URL
@@ -11,6 +11,7 @@ highlighter: rouge # Rouge is the default highlighter
 kramdown:
   input: GFM # GitHub Flavored Markdown
   syntax_highlighter_opts:
+    css_class: 'highlight'
     block_code:
       line_numbers: false # Set to true if you want line numbers
 
