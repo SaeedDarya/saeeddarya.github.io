@@ -1,4 +1,4 @@
-#### Sample markdown readme file
+# Sample markdown readme file
 
 ```python
 def hello_world():
