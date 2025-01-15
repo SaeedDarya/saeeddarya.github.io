@@ -7,7 +7,7 @@ def hello_world():
 
 ## js sample
 
-Sample js code  
+Sample js code with a custom copy buttom
 
 ```javascript
 function helloWorld() {
