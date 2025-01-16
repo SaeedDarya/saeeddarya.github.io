@@ -1,4 +1,4 @@
-button.copy-to-clipboard {
+div.code-toolbar > .toolbar > .toolbar-item > button {
   background-color: #007acc;
   color: white;
   border: none;
@@ -13,10 +13,10 @@ button.copy-to-clipboard {
   opacity: 0.8;
 }
 
-button.copy-to-clipboard:hover {
+div.code-toolbar > .toolbar > .toolbar-item > button:hover {
   opacity: 1;
 }
 
-button.copy-to-clipboard:active {
+div.code-toolbar > .toolbar > .toolbar-item > button:active {
   transform: scale(0.95);
 }

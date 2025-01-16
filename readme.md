@@ -5,7 +5,7 @@ def hello_world():
     print("Hello, world!")
 ```
 
-## js sample 3
+## js sample 4
 
 Sample js code with a custom copy
 
